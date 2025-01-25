@@ -8,7 +8,7 @@ pygmentscodefencesguesssyntax = true
 googleAnalytics = "UA-75485182-2"
 
 [params]
-subtitle = "Technology blog of India's largest stock broker"
+subtitle = "Blogs on experiments and learnings."
 
 [markup]
    [markup.goldmark.renderer]
