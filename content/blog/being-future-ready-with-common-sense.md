@@ -2,8 +2,6 @@
 title: "Scaling with common sense #2: Being future ready."
 description: "An assortment of common sense ideas and practices that we follow at Zerodha for being future ready with our software, systems, and our organisation."
 date: "2021-07-28T15:30:00+05:30"
-author: knadh
-authors: ["knadh"]
 tags: ["philosophy", "scaling", "dev-culture", "tech-team"]
 image: "/static/images/being-future-ready.png"
 ---

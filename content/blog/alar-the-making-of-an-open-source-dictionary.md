@@ -2,8 +2,6 @@
 title: "Alar: The making of an open source dictionary"
 description: "The story of a massive Kannada dictionary created by V. Krishna single handedly over four decades, and its accidental discovery and open sourcing at an unlikely place, a stock brokerage."
 date: "2020-09-22T00:00:00+05:30"
-author: knadh
-authors: ["knadh"]
 tags: ["philosophy", "data", "foss"]
 image: "/static/images/alar.png"
 ---

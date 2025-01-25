@@ -5,8 +5,6 @@ rule validation engine to keep up with the changing business and regulatory envi
 starting with a custom DSL, and ended up writing a framework to manage rules written in Go and
 distribute them as pure Go plugins."
 date: "2020-11-24T17:35:00+05:30"
-author: rhnvrm
-authors: ["rhnvrm"]
 tags: ["golang"]
 image: "/static/images/bnf-veto-rejection.png"
 

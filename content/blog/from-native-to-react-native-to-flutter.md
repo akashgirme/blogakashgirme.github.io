@@ -2,8 +2,6 @@
 title: "From Native to React Native to Flutter"
 description: "Our journey and experiences with native, React Native, and Flutter and why we finally bet on Flutter for building critical financial apps in 2018 even when it was alpha."
 date: "2022-01-17T16:00:00+05:30"
-author: ajinasokan
-authors: ["ajinasokan"]
 tags: ["flutter"]
 image: "/static/images/native-reactnative-flutter.png"
 ---

@@ -2,7 +2,6 @@
 title: "1.5+ million PDFs in 25 minutes"
 description: "How we generate, digitally sign, and e-mail out 1.5+ million PDFs, as mandated by regulations, in about 25 minutes with a fully self-hosted distributed architecture."
 date: "2024-02-14T00:00:00+05:30"
-authors: ["sarat","karan"]
 tags: ["golang", "devops"]
 image: "/static/images/cnotes_banner.png"
 banner: "yes"

@@ -2,8 +2,6 @@
 title: "Working with PostgreSQL"
 description: "Our experience running large multi-terabyte PostgreSQL DBs in production with hundreds of billions of rows with minimal resources."
 date: "2021-04-22T00:00:00+05:30"
-author: satya10x
-authors: ["satya10x"]
 tags: ["databases"]
 image: "/static/images/postgres.png"
 ---

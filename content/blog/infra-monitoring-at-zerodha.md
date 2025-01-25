@@ -2,8 +2,6 @@
 title: "Infrastructure monitoring with Prometheus at Zerodha"
 description: "How we developed a hybrid multi-DC and cloud monitoring stack with Prometheus, Grafana, and Victoria metrics for monitoring system, app and service, and also business metrics."
 date: "2020-04-27T00:00:00+05:30"
-author: karan
-authors: ["karan"]
 tags: ["devops", "monitoring"]
 image: "/static/images/grafana-store.png"
 ---

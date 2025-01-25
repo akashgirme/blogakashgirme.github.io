@@ -2,8 +2,6 @@
 title: "Scaling with common sense"
 description: "A disorderly assortment of common sense ideas for scaling applicaions that we follow at Zerodha. TLDR: Simple scales. Scale application before infra. Keep networking and IO minimal."
 date: "2020-06-14T14:00:00+05:30"
-author: knadh
-authors: ["knadh"]
 tags: ["philosophy", "scaling"]
 image: "/static/images/grafana-store.png"
 ---

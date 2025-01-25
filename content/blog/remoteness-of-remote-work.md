@@ -5,7 +5,6 @@ description: "Reflections on COVID-induced remote work at Zerodha. Big failures,
 tags: [philosophy]
 image: /static/images/remote-work.png
 banner: "yes"
-authors: ["knadh"]
 ---
 
 **TL;DR** Like numerous other orgs, we transitioned (actually, flipped overnight) to being fully remote during the first COVID pandemic lockdown in 2020. It worked out great in the first year, started losing its sheen in the second year, and became detrimental to creativity and collaboration by the third year. It failed for us in the most critical areas. We then made the collective decision to switch to a "hybrid" mode, where about 10% of us involved in creative and decision-making endeavours now come to the office three days a week while 90% of us continue to be fully remote.

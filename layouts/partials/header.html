@@ -24,7 +24,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="{{ .Permalink }}" />
 	
-	<link rel="shortcut icon" href="{{ .Site.BaseURL }}/static/images/favicon.png" />
+	<!-- <link rel="shortcut icon" href="{{ .Site.BaseURL }}/static/images/favicon.png" /> -->
 
 	{{ with .OutputFormats.Get "rss" -}}
 	{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
@@ -33,28 +33,20 @@
 	{{ with .Params.image }}
 		<meta property="og:image" content="{{ if in . "http" }}{{ . }}{{ else }}{{ $.Site.BaseURL }}{{ . }}{{ end }}" />
 	{{ else }}
-		<meta property="og:image" content="https://zerodha.com/static/images/landing.png">
+		<!-- <meta property="og:image" content="https://zerodha.com/static/images/landing.png"> -->
 	{{ end }}
 
     <script type="application/ld+json">
 		{
 			"@context" : "https://schema.org",
-			"@type" : "Organization",
+			"@type" : "Individual",
 			"name" : "{{ $.Site.Title }}",
-			"logo": "https://zerodha.tech/static/images/logo.svg",
 			"description": {{ $.Site.Params.subtitle }},
-			"contactPoint" : [{
-				"@type" : "ContactPoint",
-				"telephone" : "+91 80 4040 2020",
-				"contactType" : "customer service"
-			}],
-			"url" : "https://zerodha.tech",
+			"url" : "https://blog.akashgirme.com",
 			"sameAs" : [
-				"https://facebook.com/zerodha.social",
-				"https://twitter.com/zerodhaonline",
-				"https://youtube.com/user/zerodhaonline",
-				"https://linkedin.com/company/zerodha",
-				"https://instagram.com/zerodhaonline"
+				"https://twitter.com/akashgirme_",
+				"https://linkedin.com/in/akash-girme",
+				https://github.com/akashgirme"
 			]
 		}
 	   </script>
@@ -68,7 +60,10 @@
 		<div class="container wrap">
 			<div class="header">
 				<div class="logo">
-					<a href="{{ .Site.BaseURL }}/"><img alt="Zerodha technology blog" src="{{ .Site.BaseURL }}/static/images/logo.svg" /></a>
+					<a href="{{ .Site.BaseURL }}/">
+						<!-- <img alt="Zerodha technology blog" src="{{ .Site.BaseURL }}/static/images/logo.svg" /> -->
+						 Akash's Blog
+					</a>
 				</div>
 				<nav class="nav">
 					{{ $cur := . }}
@@ -103,7 +98,7 @@
 			{{ else if .IsHome }}
 				<h1 class="intro">
 					We build <span class="bold">technology at
-					Zerodha, </span> <span class="highlight">India's largest stock broker</span>.
+					Zerodha, </span> <span class="">India's largest stock broker</span>.
 				</h1>
 
 			{{ else if isset .Data "Term" }}
